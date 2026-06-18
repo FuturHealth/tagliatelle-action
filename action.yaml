@@ -30,7 +30,7 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'docker://xlyk/tagliatelle:v5'
+  image: 'docker://us-docker.pkg.dev/futurhealth/cloud-run/tagliatelle:v5'
   args:
     - -repo
     - ${{ inputs.repo }}
